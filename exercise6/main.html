@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card-content">
+        <div class="card-body-content">
+            <email-header class="email-header">
+                <div class="header">
+                    <div class="header-container">
+                        <div class="circle-orange">S</div>
+                            <div class="from-email-text">
+                                <span class="name"> Sharon Mosley</span>
+                                <span class="email">
+                                    &#60;no-reply@google.support&#62;
+                                </span>
+                                <span class="to-me">
+                                    to me
+                                </span>
+                                <div class="email-dropdown-arrow"></div>
+                                <span class="details-link"> details</span>
+                            </div>
+                            <div class="time">2:05 PM</div>
+                    </div>
+                </div>
+            </email-header>
+
+            <tour-step class="tour-step" text = "The sender address “google.support” isn’t used." ></tour-step>
+
+            <div class="content">
+                <div class="spam"> Someone has your password </div>
+
+                <div class="email-body">
+                    <p class="message-text">
+                        Hi, 
+                        <br>
+                        Someone just used your password to try to sign in to your Google Account.
+                    </p>
+
+                    <div class="info">
+                        <span> Information:</span>
+                        <span> Thursday, February 16, 2023 at 6:28:38 PM GMT+05:30</span>
+                        <span>Slatina, Romania</span>
+                        <span>Firefox browser</span>
+                    </div>
+                    <p class="message-bottom-text">
+                        Google stopped this sign-in attempt. You should change your password immediately
+                    </p>
+                    <tour-step  text="This link points to a subdomain of “ml-security.org”, not Google." >
+                        <a-fake href="http://myaccount.google.com-securitysettingpage.ml-security.org/signonoptions/" class="button">
+                            CHANGE PASSWORD
+                            <div class="status">http://myaccount.google.com-securitysettingpage.ml-security.org/signonoptions/
+                        
+                    </div>
+                    </a-fake>
+                    </tour-step>
+
+                    <p class="footer-text">
+                        Best,
+                        <br>
+                        The Mail Team
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>

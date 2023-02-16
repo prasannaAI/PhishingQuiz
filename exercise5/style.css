@@ -1,0 +1,286 @@
+html{
+    -webkit-locale: "en";
+    font-size: 100%;
+    display: block;
+}
+
+body{
+    font: 400 14px/20px Roboto, "Helvetica Neue", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    background-color: #eee;
+}
+
+.card-content{
+    border-radius: 0.1875rem;
+    box-sizing: border-box;
+    margin: 30px auto;
+    padding: 1rem;
+    width: calc(100vw - 30px);
+    max-width: 62.5rem;
+    background: #fff;
+}
+
+@media (min-width: 1020px) and (min-height: 600px){
+    .content-card {
+        width: calc(100vw - 3.5rem);
+    }}
+
+.email-header{
+    display: block;
+    margin-bottom: 1.25rem;
+    font: 400 14px/20px Roboto, "Helvetica Neue", sans-serif;
+    letter-spacing: normal;
+}
+
+.header{
+    min-height: 2.875rem;
+    position: relative;
+    white-space: nowrap;
+}
+
+.header-container{
+    overflow: hidden;
+}
+
+.circle-orange{
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.625rem;
+    font-weight: 300;
+    height: 2.875rem;
+    line-height: 2.875rem;
+    text-align: center;
+    width: 2.875rem;
+    background-color: #4dd0e1;
+}
+
+.from-email-text{
+    display: inline-block;
+    padding-left: 0.75rem;
+    padding-top: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.name{
+    color: #212121;
+    font-weight: 500;
+}
+
+.email{
+    margin-left: 0.25rem;
+    font-size: .875rem;
+    opacity: .4;
+    display: none;
+}
+
+.to-me{
+    clear: left;
+    display: inline;
+    font-size: .875rem;
+    opacity: .4;
+}
+
+.to-me::before{
+    content: "";
+    display: block;
+}
+
+.email-dropdown-arrow{
+    background: url(../exercise4/img/drop-down-icon.png) no-repeat -60px -100px;
+    background-size: 180px auto;
+    cursor: pointer;
+    display: none;
+    height: 12px;
+    margin: 0 0 2px 0.125rem;
+    padding: 0 0 1px 0;
+    vertical-align: bottom;
+    width: 12px;
+}
+
+.details-link{
+    color: #448aff;
+    cursor: pointer;
+    font-size: .875rem;
+    font-weight: 300;
+    margin-left: 0.3125rem;
+    margin-top: 0.1875rem;
+    display: inline;
+}
+
+@media (min-width: 600px) and (min-height: 600px){
+    .details-link{
+        display: none;
+    }
+    .email-dropdown-arrow{
+        display: inline-block;
+    }
+    .email{
+        display: inline;
+    }
+}
+
+.time{
+    float: right;
+    font-size: .875rem;
+    margin-top: 0.9375rem;
+    opacity: .4;
+}
+
+.time::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.tour-step{
+    left: 3.5rem;
+}
+
+@media (max-width: 400px){
+.tour-step {
+    position: static;
+}}
+
+
+.content{
+    background-color: #fff;
+    color: #424242;
+    font-weight: 400;
+    min-height: 100px;
+    font: 400 14px/20px Roboto, "Helvetica Neue", sans-serif;
+    letter-spacing: normal;
+    font-size: 1rem;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.para{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.hr{
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0 25px;
+    clear: both;
+}
+
+.pdf{
+    position: relative;
+    display: block;
+}
+
+.attachment{
+    cursor: pointer;
+    width: 180px;
+    height: 120px;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    position: relative;
+}
+
+.attachment-default{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+input{
+    font-size: inherit;
+    font-weight: 400;
+    line-height: 1.125;
+    font-family: "Open Sans", Roboto, "Helvetica Neue", sans-serif;
+    letter-spacing: normal;
+}
+
+.attachment-footer{
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    background-color: #fafafa;
+    border-top: 1px solid #eee;
+}
+
+.pdf-icon{
+    width: 16px;
+    height: 16px;
+    background-color: #f94e39;
+    margin-top: 9px;
+    margin-left: 10px;
+    background-image: url(img/pdf-icon.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: -999px;
+    display: inline-block;
+    float: left;
+}
+
+.file-name {
+    margin-top: 11px;
+    padding-left: 0px;
+    margin-left: 10px;
+    font-size: 13px;
+    float: left;
+}
+
+.file-size {
+    font-size: 12px;
+    opacity: .5;
+    display: block;
+    clear: both;
+    padding-top: 8px;
+    margin-left: 35px;
+}
+
+
+.attachment-default {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 500;
+}
+
+.attachment-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#fafafa;
+    display: block;
+    width: 180px;
+    height: 100%;
+    z-index: 100;
+}
+
+.attachment:hover .attachment-default{
+    display: none;
+}
+
+.attachment::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    width: 40px;
+    height: 20px;
+    background-image: url(img/attachment-fold\ \(1\).png);
+    background-size: 100% auto;
+    z-index: 1;
+}
+
+
