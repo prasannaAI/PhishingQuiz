@@ -280,7 +280,7 @@ input{
     height: 20px;
     background-image: url(img/attachment-fold\ \(1\).png);
     background-size: 100% auto;
-    z-index: 1;
+    z-index: 1000;
 }
 
 
