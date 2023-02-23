@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    font: 400 14px/20px 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: normal;
     margin: 0;
     background-color: #eee;
@@ -94,7 +94,7 @@ body {
 } 
 
 .email-dropdown-arrow{
-    background: url(../exercise1/img/drop-down-icon.png) no-repeat -60px -100px;
+    background: url(img/drop-down-icon.png) no-repeat -60px -100px;
     background-size: 180px auto;
     cursor: pointer;
     height: 12px;
@@ -148,9 +148,13 @@ body {
     font-size: .8125rem;
     line-height: 1.2em;
     color: #424242;
-    display: block;
+    display: none;
     margin-top: 0.9375rem;
     padding-bottom: 1.25rem;
+}
+
+.email-dropdown.show {
+    display: block;
 }
 
 

@@ -1,4 +1,3 @@
-
 html{
     -webkit-locale: "en";
     font-size: 100%;
@@ -6,7 +5,7 @@ html{
 }
 
 body{
-    font: 400 14px/20px Roboto, "Helvetica Neue", sans-serif;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
     letter-spacing: normal;
     margin: 0;
     background-color: #eee;
@@ -91,7 +90,7 @@ body{
 }
 
 .email-dropdown-arrow{
-    background: url(../exercise4/img/drop-down-icon.png) no-repeat -60px -100px;
+    background: url(img/drop-down-icon.png) no-repeat -60px -100px;
     background-size: 180px auto;
     cursor: pointer;
     display: none;
@@ -162,9 +161,13 @@ body{
     font-size: .8125rem;
     line-height: 1.2em;
     color: #424242;
-    display: block;
+    display: none;
     margin-top: 0.9375rem;
     padding-bottom: 1.25rem;
+}
+
+.email-dropdown.show {
+    display: block;
 }
 
 
@@ -281,7 +284,7 @@ body{
     height: 40px;
     display: block;
     margin: 0 auto 15px;
-    background-image: url(../exercise4/img/dropbox-icon.png);
+    background-image: url(img/dropbox-icon.png);
     background-size: 85% auto;
     background-repeat: no-repeat;
     background-position: center;

@@ -5,7 +5,7 @@ html{
 }
 
 body{
-    font: 400 14px/20px Roboto, "Helvetica Neue", sans-serif;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
     letter-spacing: normal;
     margin: 0;
     background-color: #eee;
@@ -90,7 +90,7 @@ body{
 }
 
 .email-dropdown-arrow{
-    background: url(../exercise4/img/drop-down-icon.png) no-repeat -60px -100px;
+    background: url(img/drop-down-icon.png) no-repeat -60px -100px;
     background-size: 180px auto;
     cursor: pointer;
     display: none;
@@ -151,9 +151,13 @@ body{
     font-size: .8125rem;
     line-height: 1.2em;
     color: #424242;
-    display: block;
+    display: none;
     margin-top: 0.9375rem;
     padding-bottom: 1.25rem;
+}
+
+.email-dropdown.show {
+    display: block;
 }
 
 
@@ -204,6 +208,7 @@ body{
 .desktop {
     display: none;
     margin: 0;
+    color: #424242;
 }
 
 @media (min-width: 600px) and (min-height: 600px){
@@ -262,8 +267,8 @@ body{
     background-color: #d32f2f;
     padding: 80px 30px 20px;
     color: #fff;
-    font-size: 18px;
-    font-weight: 100;
+    font-size: 24px;
+    font-weight: 300;
 }
 
 .email-body{
@@ -295,8 +300,7 @@ p:first-child {
 
 span{
     font-size: 14px;
-    opacity: .6;
-    display: block;
+    display: inline;
 }
 
  span:first-child {
