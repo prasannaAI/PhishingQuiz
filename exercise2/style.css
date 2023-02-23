@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    font: 400 14px/20px 'Roboto', sans-serif;  
+    font-family: 'Roboto', sans-serif;  
     letter-spacing: normal;
     margin: 0;
     background-color: #eee;
@@ -41,17 +41,12 @@ body {
 }
 
 
-.header-container{
-    overflow: hidden;
-}
-
 .form-email-text{
     display: inline-block;
     padding-left: 0.75rem;
     padding-top: 2px;
     text-overflow: ellipsis;
     white-space: nowrap;
-    overflow-x: hidden;
 }
 
 .l{
@@ -93,7 +88,7 @@ body {
 
 /* /////////////////////////// */
 .email-dropdown-arrow{
-    background: url(../exercise1/img/drop-down-icon.png) no-repeat -60px -100px;
+    background: url(img/drop-down-icon.png) no-repeat -60px -100px;
     background-size: 180px auto;
     cursor: pointer;
     height: 12px;
@@ -143,13 +138,17 @@ body {
 }
 
 .email-dropdown {
+    display: none;
     text-align: left;
     font-size: .8125rem;
     line-height: 1.2em;
     color: #424242;
-    display: block;
     margin-top: 0.9375rem;
     padding-bottom: 1.25rem;
+}
+
+.email-dropdown.show {
+    display: block;
 }
 
 

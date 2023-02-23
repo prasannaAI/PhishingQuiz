@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 6</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script defer src="dropdown.js"></script>
+    <script defer src="settings.js"></script>
+    <script defer src="/exercise-functionality.js"></script>
+</head>
+
+<body>
+    <div class="card-content">
+        <div class="card-body-content">
+            <div class="email-header">
+                <div class="header">
+                    <div class="header-container">
+                        <div class="circle-orange">S</div>
+                        <div class="from-email-text">
+                            <span class="name"> Sharon Mosley</span>
+                            <span class="email">
+                                &#60;no-reply@google.support&#62;
+                            </span>
+                            <span class="to-me">
+                                to me
+                            </span>
+                            <div class="email-dropdown-arrow"></div>
+                            <span class="details-link"> details</span>
+                        </div>
+                        <div class="time">2:05 PM</div>
+                    </div>
+                    <div class="email-dropdown">
+                        <div class="info-item">
+                            <span class="col-left">from:</span>
+                            <span class="desktop">Luke Johnson</span>
+                            <span class="desktop"> &#60;luke.json8000@gmail&#62; </span>
+                            <span class="mobile"> luke.json8000@gmail.com </span>
+                        </div>
+                        <div class="info-item">
+                            <span class="col-left">to:</span>
+                            <span class="desktop replace__name"></span>
+                            <span class="desktop"> &#60;<span class="replace__email"></span>&#62; </span>
+                            <span class="mobile replace__email"></span>
+                        </div>
+                        <div class="info-item">
+                            <span class="col-left">date:</span>
+                            <span>Feb 17, 2023, 10:39:56 AM</span>
+                        </div>
+                        <div class="info-item subject">
+                            <span class="col-left">subject:</span>
+                            <span>2023 Departmental Budget</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <tour-step class="tour-step" text="The sender address “google.support” isn’t used."></tour-step>
+
+            <div class="content">
+                <div class="spam"> Someone has your password </div>
+
+                <div class="email-body">
+                    <p class="message-text">
+                        Hi,
+                        <br>
+                        Someone just used your password to try to sign in to your Google Account.
+                    </p>
+
+                    <div class="info">
+                        <span> Information:</span>
+                        <span> Thursday, February 16, 2023 at 6:28:38 PM GMT+05:30</span>
+                        <span>Slatina, Romania</span>
+                        <span>Firefox browser</span>
+                    </div>
+                    <p class="message-bottom-text">
+                        Google stopped this sign-in attempt. You should change your password immediately
+                    </p>
+                    <tour-step text="This link points to a subdomain of “ml-security.org”, not Google.">
+                        <a-fake href="http://myaccount.google.com-securitysettingpage.ml-security.org/signonoptions/"
+                            class="button">
+                            CHANGE PASSWORD
+                            <div class="status">
+                                http://myaccount.google.com-securitysettingpage.ml-security.org/signonoptions/
+
+                            </div>
+                        </a-fake>
+                    </tour-step>
+
+                    <p class="footer-text">
+                        Best,
+                        <br>
+                        The Mail Team
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
