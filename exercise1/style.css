@@ -54,7 +54,7 @@ body {
     overflow-x: hidden;
 }
 
-.l{
+.circle-l{
     border-radius: 50%;
     color: #fff;
     display: inline-block;
@@ -65,8 +65,7 @@ body {
     text-align: center;
     width: 2.875rem;
     background-color: #ef5350;
-    margin-top: 20px;
-    margin-left: 10px;
+    
 }
 
 .name{
@@ -91,7 +90,6 @@ body {
     content: "";
     display: block;} 
 
-/* /////////////////////////// */
 .email-dropdown-arrow{
     background: url(img/drop-down-icon.png) no-repeat -60px -100px;
     background-size: 180px auto;

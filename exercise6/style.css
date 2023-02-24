@@ -43,7 +43,7 @@ body{
     overflow: hidden;
 }
 
-.circle-orange{
+.circle-S{
     border-radius: 50%;
     color: #fff;
     display: inline-block;
@@ -75,6 +75,12 @@ body{
     font-size: .875rem;
     opacity: .4;
     display: none;
+}
+
+@media (min-width: 600px) and (min-height: 600px) {
+ .from-email-text .email {
+    display: inline;
+} 
 }
 
 .to-me{
@@ -263,6 +269,11 @@ body{
     padding: 15px 0;
 }
 
+@media (min-width: 600px) and (min-height: 600px){
+    .content {
+        padding: 0;
+    }}
+
 .spam{
     background-color: #d32f2f;
     padding: 80px 30px 20px;
@@ -292,18 +303,29 @@ p:first-child {
     margin-top: 0;
 }
 
+@media (min-width: 600px) and (min-height: 600px) {
+p {
+    font-size: 16px;
+}
+}
+
+ p:last-child {
+    margin-bottom: 0;
+}
 
 .info{
     padding-left: 25px;
     line-height: 1.4em;
 }
 
-span{
+.info span{
     font-size: 14px;
-    display: inline;
+    display: block;
+    opacity: .6;
+
 }
 
- span:first-child {
+.info span:first-child {
     font-size: 16px;
     opacity: 1;
 }

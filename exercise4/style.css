@@ -263,6 +263,12 @@ body{
     min-height: 100px;   
 }
 
+@media (min-width: 600px) and (min-height: 600px){
+.content {
+    padding: 20px 57px;
+}
+}
+
 .message{
     font-size: 13px;
     font-weight: 300;
@@ -277,6 +283,12 @@ body{
     padding: 20px;
     box-sizing: border-box;
     border-radius: 3px;
+}
+
+@media (min-width: 600px) and (min-height: 600px) {
+.message {
+    font-size: 15px;
+}
 }
 
 .dropbox-icon{

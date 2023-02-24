@@ -263,6 +263,13 @@ body{
     padding: 15px 0;
 }
 
+@media (min-width: 600px) and (min-height: 600px) {
+.content {
+    padding: 0;
+}
+}
+
+
 .para{
     display: block;
     margin-block-start: 1em;

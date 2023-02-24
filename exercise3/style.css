@@ -54,7 +54,7 @@ body{
     overflow-x: hidden;
 }
 
-.l{
+.Circle-F{
     border-radius: 50%;
     color: #fff;
     display: inline-block;
@@ -64,9 +64,8 @@ body{
     line-height: 2.875rem;
     text-align: center;
     width: 2.875rem;
-    background-color: #ef5350;
-    margin-top: 20px;
-    margin-left: 10px;
+    background-color: #64b5f6;
+   
 }
 
 .name{
@@ -246,8 +245,7 @@ body{
 .content{
     background-color: #fff;
     min-height: 100px;
-    color: #424242;
-    font-weight: 400;
+    color: #424242; 
     font: 400 14px/20px Roboto, "Helvetica Neue", sans-serif;
     letter-spacing: normal;
     font-size: 1rem;
@@ -256,6 +254,13 @@ body{
     width: 100%;
     padding: 15px 0;
 }
+
+@media (min-width: 600px) and (min-height: 600px) {
+.content {
+    padding: 0;
+}
+}
+
 
 .tour-wrapper{
     display: inline-block;
